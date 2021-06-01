@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button:hover {
+    filter: brightness(110%);
+  }
+  button:focus {
+    outline: none;
+  }
+}
+
+@layer utilities {
+  .background-home {
+    background-image: url('../assets/images/background_home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .background-footer {
+    background-image: url('../assets/images/background_footer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
